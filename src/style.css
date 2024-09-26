@@ -1,1 +1,52 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #0e7e12;
+}
+#card {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 5% auto;
+}
+#top-card {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  margin-top: 2px;
+  font-size: 100px;
+  width: 20%;
+  height: 100px;
+}
+#number-card {
+  font-size: 120px;
+  width: 40%;
+  margin: 20px auto;
+  text-align: center;
+}
+#foot-card {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+  font-size: 100px;
+  width: 20%;
+  height: 100px;
+  transform: rotate(-180deg);
+}
+
+#nuevaCarta {
+  display: inline-block;
+  position: relative;
+  left: 520px;
+  margin-top: 2px;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
